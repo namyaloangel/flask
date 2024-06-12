@@ -1,0 +1,28 @@
+{% extends 'navbar.html' %}
+{% block content %}
+
+   
+    <!--------------- blog-tittle-section---------------->
+    <section class="blog error-blog  footer-padding">
+        <div class="container">
+            <div class="blog-bradcrum">
+                <span><a href="index.html">Home</a></span>
+                <span class="devider">/</span>
+                <span><a href="#">404 Not Found</a></span>
+            </div>
+            <div class="blog-item">
+                <div class="error-img">
+                    <img src="{{ url_for('static', filename='./assets/images/homepage-one/404-error.webp') }}" alt="404-error">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------- blog-tittle-section-end---------------->
+
+    {% endblock content %}
+
+
+
+
+
+   
